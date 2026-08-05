@@ -28,7 +28,7 @@ surge-rules/
 │   │   └── README.md           # 品牌统计信息
 │   ├── Apple/
 │   └── ...
-├── configs/Surge/
+├── configs/
 │   ├── Surge.conf              # 完整配置（含注释、段间空行）
 │   └── Surge.min.conf          # 精简配置（无注释、紧凑排列）
 ├── scripts/                    # 转换与校验脚本
@@ -47,7 +47,7 @@ surge-rules/
 ### 快速开始
 
 1. 打开 Surge → 配置文件 → 编辑
-2. 将 `configs/Surge/Surge.conf` 内容粘贴进去
+2. 将 `configs/Surge.conf` 内容粘贴进去
 3. 替换 `[Proxy]` 中的示例节点为实际代理节点
 4. 保存并连接
 

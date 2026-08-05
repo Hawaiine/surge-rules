@@ -3,8 +3,8 @@
 generate_config.py — 生成 Surge 配置文件（Surge.conf / Surge.min.conf）
 从 ruleset/ 扫描品牌，生成完整 Surge 配置。
 输出：
-- configs/Surge/Surge.conf       # 完整版（含注释、段间空行）
-- configs/Surge/Surge.min.conf   # 精简版（无注释、紧凑）
+- configs/Surge.conf       # 完整版（含注释、段间空行）
+- configs/Surge.min.conf   # 精简版（无注释、紧凑）
 """
 
 from __future__ import annotations
@@ -383,7 +383,7 @@ def main() -> None:
     full = assemble_full(general, proxies, proxy_groups_full, rules_full)
     min_conf = assemble_min(general, proxies, proxy_groups_min, rules_min)
 
-    out_dir = ROOT / 'configs' / 'Surge'
+    out_dir = ROOT / 'configs'
     changed_full = write_if_changed(out_dir / 'Surge.conf', full)
     changed_min = write_if_changed(out_dir / 'Surge.min.conf', min_conf)
 
