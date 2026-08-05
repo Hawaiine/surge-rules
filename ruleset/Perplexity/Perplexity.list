@@ -1,0 +1,9 @@
+# Perplexity Ruleset
+# DOMAIN 2 DOMAIN-SUFFIX 3
+# TOTAL 5
+# Updated: 2026-07-23 17:36:02
+DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai

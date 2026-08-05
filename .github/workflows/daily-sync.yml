@@ -1,0 +1,84 @@
+name: Daily Sync
+
+on:
+  schedule:
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run batch update
+        id: batch
+        run: |
+          python scripts/batch_update.py 2>&1 | tee /tmp/batch_output.txt
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+
+      - name: Verify rulesets
+        id: verify
+        run: |
+          python scripts/verify_rulesets.py 2>&1 | tee /tmp/verify_output.txt
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+
+      - name: Commit & Push
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "NO_CHANGES" && echo "has_changes=false" >> $GITHUB_OUTPUT && exit 0
+          git commit -m "🔄 每日自动同步 $(date -u +%Y-%m-%d\ %H:%M:%S)"
+          git push
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+
+      - name: Discord Notification
+        if: always()
+        env:
+          WEBHOOK_URL: ${{ secrets.DISCORD_SURGE_WEBHOOK }}
+        run: |
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "Webhook URL not configured; skipping notification"
+            exit 0
+          fi
+          BRANCH="${GITHUB_REF_NAME}"
+          COMMIT_MSG=$(git log -1 --format="%s" 2>/dev/null || echo "no commit")
+          BATCH_OK=$(grep -c '完成' /tmp/batch_output.txt 2>/dev/null || echo 0)
+          VERIFY_OK=$(grep -c 'PASS: 107' /tmp/verify_output.txt 2>/dev/null || echo 0)
+          HAS_CHANGES="${{ steps.commit.outputs.has_changes }}"
+          if [ "$HAS_CHANGES" = "true" ]; then
+            STATUS=":white_check_mark: 更新已推送"
+          else
+            STATUS=":information_source: 无变更"
+          fi
+          curl -s -X POST "$WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"embeds\": [{
+                \"title\": \"🔄 Surge 规则同步\",
+                \"description\": \"$STATUS\",
+                \"color\": 5814783,
+                \"fields\": [
+                  {\"name\": \"批量更新\", \"value\": \"$([ $BATCH_OK -gt 0 ] && echo '✅ 完成' || echo '❌ 失败')\", \"inline\": true},
+                  {\"name\": \"规则校验\", \"value\": \"$([ $VERIFY_OK -gt 0 ] && echo '✅ 通过' || echo '❌ 失败')\", \"inline\": true},
+                  {\"name\": \"分支\", \"value\": \"$BRANCH\", \"inline\": true}
+                ],
+                \"footer\": {\"text\": \"Surge Rules Sync\"},
+                \"timestamp\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"
+              }]
+            }"

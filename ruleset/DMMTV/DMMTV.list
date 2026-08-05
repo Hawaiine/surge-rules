@@ -1,0 +1,10 @@
+# DMM TV Ruleset
+# DOMAIN 1 DOMAIN-SUFFIX 5
+# TOTAL 6
+# Updated: 2026-07-23 17:36:01
+DOMAIN,api-p.videomarket.jp
+DOMAIN-SUFFIX,dmm-extension.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmmapis.com
+DOMAIN-SUFFIX,dmmrex.com

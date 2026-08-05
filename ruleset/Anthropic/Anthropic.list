@@ -1,0 +1,12 @@
+# Anthropic Ruleset
+# DOMAIN 1 DOMAIN-SUFFIX 7
+# TOTAL 8
+# Updated: 2026-07-23 18:36:16
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com

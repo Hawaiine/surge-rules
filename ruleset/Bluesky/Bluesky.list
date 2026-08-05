@@ -1,0 +1,7 @@
+# Bluesky Ruleset
+# DOMAIN-SUFFIX 3
+# TOTAL 3
+# Updated: 2026-07-23 17:36:01
+DOMAIN-SUFFIX,bsky.app
+DOMAIN-SUFFIX,bsky.network
+DOMAIN-SUFFIX,bsky.social

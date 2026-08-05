@@ -1,0 +1,8 @@
+# Messenger Ruleset
+# DOMAIN-SUFFIX 4
+# TOTAL 4
+# Updated: 2026-07-23 17:36:02
+DOMAIN-SUFFIX,fbmessenger.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,nbabot.net

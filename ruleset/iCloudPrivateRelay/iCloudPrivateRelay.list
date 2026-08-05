@@ -1,0 +1,10 @@
+# iCloud Private Relay Ruleset
+# DOMAIN 4 DOMAIN-SUFFIX 2
+# TOTAL 6
+# Updated: 2026-07-23 17:36:04
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com

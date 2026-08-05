@@ -1,0 +1,6 @@
+# Musixmatch Ruleset
+# DOMAIN-SUFFIX 2
+# TOTAL 2
+# Updated: 2026-07-23 17:36:02
+DOMAIN-SUFFIX,musixmatch.com
+DOMAIN-SUFFIX,mxmcdn.net

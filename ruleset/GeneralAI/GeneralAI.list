@@ -1,0 +1,27 @@
+# 🤖 General AI Ruleset
+# DOMAIN 18 DOMAIN-SUFFIX 5
+# TOTAL 23
+# Updated: 2026-07-21 00:00:00
+DOMAIN,codeium.com
+DOMAIN,codeiumdata.com
+DOMAIN,groq.com
+DOMAIN,hermes-agent.nousresearch.com
+DOMAIN,hf.co
+DOMAIN,hf.space
+DOMAIN,huggingface.co
+DOMAIN,kiro.dev
+DOMAIN,liveperson.net
+DOMAIN,lpsnmedia.net
+DOMAIN,minimax.io
+DOMAIN,mistral.ai
+DOMAIN,ollama.com
+DOMAIN,openclaw.ai
+DOMAIN,openrouter.ai
+DOMAIN,qoder.com
+DOMAIN,windsurf.build
+DOMAIN,windsurf.com
+DOMAIN-SUFFIX,api-inference.huggingface.co
+DOMAIN-SUFFIX,api.cohere.com
+DOMAIN-SUFFIX,api.mistral.ai
+DOMAIN-SUFFIX,api.openrouter.ai
+DOMAIN-SUFFIX,integrate.api.nvidia.com

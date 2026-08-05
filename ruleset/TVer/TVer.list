@@ -1,0 +1,10 @@
+# TVer Ruleset
+# DOMAIN-SUFFIX 6
+# TOTAL 6
+# Updated: 2026-07-23 17:36:04
+DOMAIN-SUFFIX,dogatch.jp
+DOMAIN-SUFFIX,edge.api.brightcove.com
+DOMAIN-SUFFIX,gorin.jp
+DOMAIN-SUFFIX,screens-lab.jp
+DOMAIN-SUFFIX,tver.co.jp
+DOMAIN-SUFFIX,tver.jp
