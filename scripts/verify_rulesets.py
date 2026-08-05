@@ -21,8 +21,8 @@ from lib.canonical import TYPES_ORDER, parse_rule_line
 
 SURGE_TYPES = set(TYPES_ORDER)
 HEADER_KEYS = ['Source', 'Rule Count', 'TOTAL', 'Last Updated']
-TYPE_RE = re.compile(r'(?P<type>[A-Z][A-Z0-9_-]+)\s+(?P<count>\d+)')
-TOTAL_RE = re.compile(r'^#\s+TOTAL\s+(?P<count>\d+)\s*$')
+TYPE_RE = re.compile(r'(?P<type>[A-Z][A-Z0-9_-]+):\s+(?P<count>\d+)')
+TOTAL_RE = re.compile(r'^#\s+TOTAL:\s+(?P<count>\d+)\s*$')
 
 
 def iter_list_files(ruleset_dir: Path):
