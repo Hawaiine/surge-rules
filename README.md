@@ -30,7 +30,8 @@ surge-rules/
 │   └── ...
 ├── configs/
 │   ├── Surge.conf              # 完整配置（含注释、段间空行）
-│   └── Surge.min.conf          # 精简配置（无注释、紧凑排列）
+│   ├── Surge.min.conf          # 精简配置（无注释、紧凑排列）
+│   └── Proxy.dconf             # 代理节点配置模板（按需启用）
 ├── scripts/                    # 转换与校验脚本
 │   ├── batch_update.py         # 日更入口
 │   ├── fetch_upstream.py       # 上游拉取

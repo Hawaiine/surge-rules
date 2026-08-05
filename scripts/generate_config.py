@@ -387,11 +387,21 @@ external-controller-access = surgerules@127.0.0.1:6170
 def gen_proxy_placeholder() -> str:
     return """[Proxy]
 # ===========================================
-# Proxy 节点（示例占位，请替换为实际节点）
+# 代理节点配置
+#
+# 方式一（推荐）：使用外部配置文件
+#   将你的代理节点写入 configs/Proxy.dconf，格式参考该文件内的注释。
+#   取消注释下面这行即可加载：
+#
+#   #!include configs/Proxy.dconf
+#
+# 方式二：直接在此处添加节点
+#   按下方示例格式替换为你的实际代理节点。
+#   支持类型：http, https, socks5, socks5-tls, ss, vmess, trojan, snell, wireguard
+#
+# 参考：https://manual.nssurge.com/proxy/proxy.html
 # ===========================================
-ProxyA = http, 1.2.3.4, 443
-ProxyB = socks5, 5.6.7.8, 1080
-Direct = direct
+#!include configs/Proxy.dconf
 
 """
 
