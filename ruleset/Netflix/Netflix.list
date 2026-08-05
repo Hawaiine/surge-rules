@@ -1,7 +1,12 @@
-# Netflix Ruleset
-# DOMAIN 3 DOMAIN-SUFFIX 30 DOMAIN-KEYWORD 2 DOMAIN-REGEX 4
-# TOTAL 39
+# ===========================================
+# Rule Name: Netflix
 # Updated: 2026-07-23 17:36:02
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 30
+# DOMAIN-KEYWORD: 2
+# DOMAIN-REGEX: 4
+# TOTAL: 39
+# ===========================================
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,netflixdnstest
 DOMAIN-REGEX,(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com$

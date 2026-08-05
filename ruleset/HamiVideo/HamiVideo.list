@@ -1,7 +1,10 @@
-# Hami Video Ruleset
-# DOMAIN 1 DOMAIN-SUFFIX 2
-# TOTAL 3
+# ===========================================
+# Rule Name: Hami Video
 # Updated: 2026-07-23 17:36:01
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 2
+# TOTAL: 3
+# ===========================================
 DOMAIN,hls-hichannel.cdn.hinet.net
 DOMAIN-SUFFIX,hamivideo.hinet.net
 DOMAIN-SUFFIX,ott.hinet.net

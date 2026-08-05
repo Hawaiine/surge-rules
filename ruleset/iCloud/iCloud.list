@@ -1,7 +1,9 @@
-# iCloud Ruleset
-# DOMAIN-SUFFIX 60
-# TOTAL 60
+# ===========================================
+# Rule Name: iCloud
 # Updated: 2026-07-23 17:36:04
+# DOMAIN-SUFFIX: 60
+# TOTAL: 60
+# ===========================================
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-icloud.cn
 DOMAIN-SUFFIX,apple-livephotoskit.com

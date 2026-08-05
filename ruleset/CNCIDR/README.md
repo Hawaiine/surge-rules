@@ -6,6 +6,5 @@
 | IP-CIDR | 4206 |
 | IP-CIDR6 | 1611 |
 
-- **behavior**: classical
 - **策略组**: CNCIDR
 

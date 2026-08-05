@@ -1,7 +1,10 @@
-# AWS Ruleset
-# DOMAIN-SUFFIX 47 DOMAIN-REGEX 1
-# TOTAL 48
+# ===========================================
+# Rule Name: AWS
 # Updated: 2026-07-23 17:36:01
+# DOMAIN-SUFFIX: 47
+# DOMAIN-REGEX: 1
+# TOTAL: 48
+# ===========================================
 DOMAIN-REGEX,.+\.awsdns-[0-9][0-9]\.(co\.uk|com|net|org)$
 DOMAIN-SUFFIX,acmvalidations.com
 DOMAIN-SUFFIX,acmvalidationsaws.com

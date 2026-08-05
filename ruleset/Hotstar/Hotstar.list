@@ -1,7 +1,10 @@
-# Hotstar Ruleset
-# DOMAIN-SUFFIX 5 DOMAIN-REGEX 1
-# TOTAL 6
+# ===========================================
+# Rule Name: Hotstar
 # Updated: 2026-07-23 17:36:01
+# DOMAIN-SUFFIX: 5
+# DOMAIN-REGEX: 1
+# TOTAL: 6
+# ===========================================
 DOMAIN-REGEX,^hses[1-7]?\.akamaized\.net$
 DOMAIN-SUFFIX,hotstar-cdn.net
 DOMAIN-SUFFIX,hotstar-labs.com

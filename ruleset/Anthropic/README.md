@@ -6,6 +6,5 @@
 | DOMAIN | 1 |
 | DOMAIN-SUFFIX | 7 |
 
-- **behavior**: classical
 - **策略组**: Anthropic
 

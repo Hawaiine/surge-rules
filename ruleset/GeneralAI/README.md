@@ -6,6 +6,5 @@
 | DOMAIN | 18 |
 | DOMAIN-SUFFIX | 5 |
 
-- **behavior**: classical
 - **策略组**: 🤖 General AI
 

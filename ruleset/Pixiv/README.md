@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 8 |
 
-- **behavior**: classical
 - **策略组**: Pixiv
 

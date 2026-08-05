@@ -1,7 +1,11 @@
-# GitHub Ruleset
-# DOMAIN 30 DOMAIN-SUFFIX 36 DOMAIN-KEYWORD 1
-# TOTAL 67
+# ===========================================
+# Rule Name: GitHub
 # Updated: 2026-07-28 06:52:33
+# DOMAIN: 30
+# DOMAIN-SUFFIX: 36
+# DOMAIN-KEYWORD: 1
+# TOTAL: 67
+# ===========================================
 DOMAIN-KEYWORD,github
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot-workspace.githubnext.com

@@ -1,7 +1,11 @@
-# Viu Ruleset
-# DOMAIN 4 DOMAIN-SUFFIX 2 DOMAIN-REGEX 1
-# TOTAL 7
+# ===========================================
+# Rule Name: Viu
 # Updated: 2026-07-23 17:36:04
+# DOMAIN: 4
+# DOMAIN-SUFFIX: 2
+# DOMAIN-REGEX: 1
+# TOTAL: 7
+# ===========================================
 DOMAIN-REGEX,^ewcdn[0-9]+\.nowe\.com$
 DOMAIN,api.viu.now.com
 DOMAIN,d1k2us671qcoau.cloudfront.net

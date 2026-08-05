@@ -1,7 +1,10 @@
-# Docker Ruleset
-# DOMAIN 5 DOMAIN-SUFFIX 5
-# TOTAL 10
+# ===========================================
+# Rule Name: Docker
 # Updated: 2026-07-23 17:36:01
+# DOMAIN: 5
+# DOMAIN-SUFFIX: 5
+# TOTAL: 10
+# ===========================================
 DOMAIN,d1q6f0aelx0por.cloudfront.net
 DOMAIN,d2wy8f7a9ursnm.cloudfront.net
 DOMAIN,d36jcksde1wxzq.cloudfront.net

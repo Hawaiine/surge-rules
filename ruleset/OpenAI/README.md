@@ -10,6 +10,5 @@
 | IP-CIDR | 2 |
 | IP-ASN | 1 |
 
-- **behavior**: classical
 - **策略组**: OpenAI
 

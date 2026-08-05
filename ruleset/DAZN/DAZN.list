@@ -1,7 +1,10 @@
-# DAZN Ruleset
-# DOMAIN-SUFFIX 17 DOMAIN-KEYWORD 1
-# TOTAL 18
+# ===========================================
+# Rule Name: DAZN
 # Updated: 2026-07-23 17:36:01
+# DOMAIN-SUFFIX: 17
+# DOMAIN-KEYWORD: 1
+# TOTAL: 18
+# ===========================================
 DOMAIN-KEYWORD,voddazn
 DOMAIN-SUFFIX,control.kochava.com
 DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net

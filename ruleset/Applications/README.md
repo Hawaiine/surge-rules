@@ -4,6 +4,5 @@
 | 类型 | 数量 |
 |------|------|
 
-- **behavior**: classical
 - **策略组**: Applications
 

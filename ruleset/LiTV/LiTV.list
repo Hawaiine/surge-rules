@@ -1,6 +1,9 @@
-# LiTV Ruleset
-# DOMAIN 1 DOMAIN-SUFFIX 1
-# TOTAL 2
+# ===========================================
+# Rule Name: LiTV
 # Updated: 2026-07-23 17:36:02
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 1
+# TOTAL: 2
+# ===========================================
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN-SUFFIX,litv.tv

@@ -1,7 +1,10 @@
-# 🤖 General AI Ruleset
-# DOMAIN 18 DOMAIN-SUFFIX 5
-# TOTAL 23
+# ===========================================
+# Rule Name: 🤖 General AI
 # Updated: 2026-07-21 00:00:00
+# DOMAIN: 18
+# DOMAIN-SUFFIX: 5
+# TOTAL: 23
+# ===========================================
 DOMAIN,codeium.com
 DOMAIN,codeiumdata.com
 DOMAIN,groq.com

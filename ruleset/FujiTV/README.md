@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN | 2 |
 
-- **behavior**: classical
 - **策略组**: Fuji TV
 

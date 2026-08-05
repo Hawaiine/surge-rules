@@ -1,7 +1,9 @@
-# HBO Ruleset
-# DOMAIN-SUFFIX 47
-# TOTAL 47
+# ===========================================
+# Rule Name: HBO
 # Updated: 2026-07-23 17:36:01
+# DOMAIN-SUFFIX: 47
+# TOTAL: 47
+# ===========================================
 DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
 DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN-SUFFIX,cinemax.com

@@ -56,19 +56,15 @@ def parse_yaml_header_and_payload(path: Path) -> Tuple[dict[str, str], List[str]
 
 
 def make_header(header: dict[str, str], counts: dict[str, int], total: int) -> str:
-    parts = []
+    lines = ['# ===========================================']
+    lines.append(f'# Rule Name: {header.get("Rule Name", "Ruleset")}')
+    lines.append(f'# Updated: {header.get("Updated", "")}')
     for t in TYPES_ORDER:
         if counts.get(t, 0):
-            parts.append(f'{t} {counts[t]}')
-    total_line = f'TOTAL {total}' if total else ''
-    lines = [
-        f'# {header.get("Rule Name", "Ruleset")} Ruleset',
-    ]
-    if parts:
-        lines.append(f'# {" ".join(parts)}')
-    if total_line:
-        lines.append(f'# {total_line}')
-    lines.append(f'# Updated: {header.get("Updated", "")}')
+            lines.append(f'# {t}: {counts[t]}')
+    if total:
+        lines.append(f'# TOTAL: {total}')
+    lines.append('# ===========================================')
     return '\n'.join(lines) + '\n'
 
 

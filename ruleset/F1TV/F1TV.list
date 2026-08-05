@@ -1,6 +1,9 @@
-# F1 TV Ruleset
-# DOMAIN 1 DOMAIN-SUFFIX 1
-# TOTAL 2
+# ===========================================
+# Rule Name: F1 TV
 # Updated: 2026-07-21 00:00:00
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 1
+# TOTAL: 2
+# ===========================================
 DOMAIN,linear.tv.apple.com
 DOMAIN-SUFFIX,play-edge.itunes.apple.com

@@ -6,6 +6,5 @@
 | DOMAIN-SUFFIX | 127 |
 | IP-CIDR | 1 |
 
-- **behavior**: classical
 - **策略组**: Nintendo
 

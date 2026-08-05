@@ -6,6 +6,5 @@
 | DOMAIN | 3 |
 | DOMAIN-SUFFIX | 5 |
 
-- **behavior**: classical
 - **策略组**: LINE TV
 

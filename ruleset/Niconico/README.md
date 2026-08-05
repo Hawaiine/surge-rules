@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 9 |
 
-- **behavior**: classical
 - **策略组**: Niconico
 

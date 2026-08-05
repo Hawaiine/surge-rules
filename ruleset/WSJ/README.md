@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 13 |
 
-- **behavior**: classical
 - **策略组**: WSJ
 

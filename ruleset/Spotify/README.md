@@ -8,6 +8,5 @@
 | DOMAIN-SUFFIX | 23 |
 | IP-CIDR | 2 |
 
-- **behavior**: classical
 - **策略组**: Spotify
 

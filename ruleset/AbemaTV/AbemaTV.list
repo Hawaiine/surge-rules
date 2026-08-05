@@ -1,7 +1,10 @@
-# AbemaTV Ruleset
-# DOMAIN 1 DOMAIN-SUFFIX 22
-# TOTAL 23
+# ===========================================
+# Rule Name: AbemaTV
 # Updated: 2026-07-23 17:47:38
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 22
+# TOTAL: 23
+# ===========================================
 DOMAIN,abema.tv
 DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,abema.io

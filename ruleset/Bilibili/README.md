@@ -6,6 +6,5 @@
 | DOMAIN | 1 |
 | DOMAIN-SUFFIX | 52 |
 
-- **behavior**: classical
 - **策略组**: Bilibili
 

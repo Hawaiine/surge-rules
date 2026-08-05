@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 60 |
 
-- **behavior**: classical
 - **策略组**: iCloud
 

@@ -1,7 +1,9 @@
-# Z-Library Ruleset
-# DOMAIN 41
-# TOTAL 41
+# ===========================================
+# Rule Name: Z-Library
 # Updated: 2026-07-21 00:00:00
+# DOMAIN: 41
+# TOTAL: 41
+# ===========================================
 DOMAIN,art1lib.com
 DOMAIN,articles.sk
 DOMAIN,b-ok.africa

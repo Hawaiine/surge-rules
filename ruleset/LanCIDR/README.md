@@ -6,6 +6,5 @@
 | IP-CIDR | 14 |
 | IP-CIDR6 | 4 |
 
-- **behavior**: classical
 - **策略组**: LanCIDR
 

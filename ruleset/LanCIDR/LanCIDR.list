@@ -1,7 +1,10 @@
-# LanCIDR Ruleset
-# IP-CIDR 14 IP-CIDR6 4
-# TOTAL 18
+# ===========================================
+# Rule Name: LanCIDR
 # Updated: 2026-07-21 21:17:52
+# IP-CIDR: 14
+# IP-CIDR6: 4
+# TOTAL: 18
+# ===========================================
 IP-CIDR,0.0.0.0/8,no-resolve
 IP-CIDR,10.0.0.0/8,no-resolve
 IP-CIDR,100.64.0.0/10,no-resolve

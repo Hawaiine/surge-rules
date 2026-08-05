@@ -1,7 +1,9 @@
-# WhatsApp Ruleset
-# DOMAIN-SUFFIX 11
-# TOTAL 11
+# ===========================================
+# Rule Name: WhatsApp
 # Updated: 2026-07-23 17:36:04
+# DOMAIN-SUFFIX: 11
+# TOTAL: 11
+# ===========================================
 DOMAIN-SUFFIX,wa.me
 DOMAIN-SUFFIX,whatsapp-plus.info
 DOMAIN-SUFFIX,whatsapp-plus.me

@@ -1,7 +1,9 @@
-# Bangumi Ruleset
-# DOMAIN-SUFFIX 3
-# TOTAL 3
+# ===========================================
+# Rule Name: Bangumi
 # Updated: 2026-07-23 17:36:01
+# DOMAIN-SUFFIX: 3
+# TOTAL: 3
+# ===========================================
 DOMAIN-SUFFIX,bangumi.tv
 DOMAIN-SUFFIX,bgm.tv
 DOMAIN-SUFFIX,chii.in

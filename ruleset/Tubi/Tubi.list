@@ -1,7 +1,9 @@
-# Tubi Ruleset
-# DOMAIN-SUFFIX 4
-# TOTAL 4
+# ===========================================
+# Rule Name: Tubi
 # Updated: 2026-07-23 17:36:04
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+# ===========================================
 DOMAIN-SUFFIX,tubi.io
 DOMAIN-SUFFIX,tubi.tv
 DOMAIN-SUFFIX,tubi.video

@@ -1,7 +1,9 @@
-# NHK Ruleset
-# DOMAIN-SUFFIX 3
-# TOTAL 3
+# ===========================================
+# Rule Name: NHK
 # Updated: 2026-07-23 17:36:02
+# DOMAIN-SUFFIX: 3
+# TOTAL: 3
+# ===========================================
 DOMAIN-SUFFIX,nhk.jp
 DOMAIN-SUFFIX,nhk.or.jp
 DOMAIN-SUFFIX,nhkworld.jp

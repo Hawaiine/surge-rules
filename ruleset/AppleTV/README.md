@@ -6,6 +6,5 @@
 | DOMAIN | 6 |
 | DOMAIN-SUFFIX | 1 |
 
-- **behavior**: classical
 - **策略组**: Apple TV
 

@@ -9,6 +9,5 @@
 | IP-CIDR | 10 |
 | IP-CIDR6 | 3 |
 
-- **behavior**: classical
 - **策略组**: Apple
 

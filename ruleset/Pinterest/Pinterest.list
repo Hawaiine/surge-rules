@@ -1,7 +1,9 @@
-# Pinterest Ruleset
-# DOMAIN-SUFFIX 52
-# TOTAL 52
+# ===========================================
+# Rule Name: Pinterest
 # Updated: 2026-07-23 17:36:02
+# DOMAIN-SUFFIX: 52
+# TOTAL: 52
+# ===========================================
 DOMAIN-SUFFIX,pin.it
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pinimg.com.cdn.cloudflare.net

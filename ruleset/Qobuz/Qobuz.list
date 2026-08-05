@@ -1,7 +1,10 @@
-# Qobuz Ruleset
-# DOMAIN-SUFFIX 31 IP-CIDR 2
-# TOTAL 33
+# ===========================================
+# Rule Name: Qobuz
 # Updated: 2026-07-23 17:36:04
+# DOMAIN-SUFFIX: 31
+# IP-CIDR: 2
+# TOTAL: 33
+# ===========================================
 DOMAIN-SUFFIX,cobeuz.fr
 DOMAIN-SUFFIX,cobuz.fr
 DOMAIN-SUFFIX,cobuzz.fr

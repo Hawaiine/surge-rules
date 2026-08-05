@@ -1,7 +1,9 @@
-# 💊 PT Ruleset
-# DOMAIN 10
-# TOTAL 10
+# ===========================================
+# Rule Name: 💊 PT
 # Updated: 2026-07-21 00:00:00
+# DOMAIN: 10
+# TOTAL: 10
+# ===========================================
 DOMAIN,alpharatio.cc
 DOMAIN,beyondhd.me
 DOMAIN,blutopia.xyz

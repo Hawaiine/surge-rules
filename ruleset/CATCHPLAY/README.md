@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 2 |
 
-- **behavior**: classical
 - **策略组**: CATCHPLAY+
 

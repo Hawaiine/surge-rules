@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 6 |
 
-- **behavior**: classical
 - **策略组**: TVer
 

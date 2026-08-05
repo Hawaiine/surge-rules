@@ -7,6 +7,5 @@
 | DOMAIN-SUFFIX | 157 |
 | IP-CIDR | 15 |
 
-- **behavior**: classical
 - **策略组**: Amazon
 

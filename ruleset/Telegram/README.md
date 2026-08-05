@@ -10,6 +10,5 @@
 | IP-CIDR6 | 5 |
 | IP-ASN | 5 |
 
-- **behavior**: classical
 - **策略组**: Telegram
 

@@ -1,7 +1,10 @@
-# 💊 PT China Ruleset
-# DOMAIN 53 DOMAIN-SUFFIX 3
-# TOTAL 56
+# ===========================================
+# Rule Name: 💊 PT China
 # Updated: 2026-07-26 00:00:00
+# DOMAIN: 53
+# DOMAIN-SUFFIX: 3
+# TOTAL: 56
+# ===========================================
 DOMAIN,agsvpt.cn
 DOMAIN,agsvpt.com
 DOMAIN,agsvpt.trackers.work

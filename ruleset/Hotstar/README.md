@@ -6,6 +6,5 @@
 | DOMAIN-REGEX | 1 |
 | DOMAIN-SUFFIX | 5 |
 
-- **behavior**: classical
 - **策略组**: Hotstar
 

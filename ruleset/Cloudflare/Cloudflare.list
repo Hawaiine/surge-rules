@@ -1,7 +1,11 @@
-# Cloudflare Ruleset
-# DOMAIN-SUFFIX 69 IP-CIDR 15 IP-CIDR6 7
-# TOTAL 91
+# ===========================================
+# Rule Name: Cloudflare
 # Updated: 2026-07-23 17:36:01
+# DOMAIN-SUFFIX: 69
+# IP-CIDR: 15
+# IP-CIDR6: 7
+# TOTAL: 91
+# ===========================================
 DOMAIN-SUFFIX,argotunnel.com
 DOMAIN-SUFFIX,browser.run
 DOMAIN-SUFFIX,cf-ipfs.com

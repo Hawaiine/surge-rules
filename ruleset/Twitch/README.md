@@ -8,6 +8,5 @@
 | IP-CIDR | 11 |
 | IP-CIDR6 | 1 |
 
-- **behavior**: classical
 - **策略组**: Twitch
 

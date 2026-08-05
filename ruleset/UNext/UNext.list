@@ -1,7 +1,9 @@
-# U-NEXT Ruleset
-# DOMAIN-SUFFIX 4
-# TOTAL 4
+# ===========================================
+# Rule Name: U-NEXT
 # Updated: 2026-07-23 17:36:04
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+# ===========================================
 DOMAIN-SUFFIX,nxtv.jp
 DOMAIN-SUFFIX,unext-info.jp
 DOMAIN-SUFFIX,unext.co.jp

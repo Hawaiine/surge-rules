@@ -6,6 +6,5 @@
 | DOMAIN | 2 |
 | DOMAIN-SUFFIX | 29 |
 
-- **behavior**: classical
 - **策略组**: Discord
 

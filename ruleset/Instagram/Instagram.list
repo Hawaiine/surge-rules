@@ -1,7 +1,10 @@
-# Instagram Ruleset
-# DOMAIN-SUFFIX 73 DOMAIN-KEYWORD 1
-# TOTAL 74
+# ===========================================
+# Rule Name: Instagram
 # Updated: 2026-07-23 17:36:01
+# DOMAIN-SUFFIX: 73
+# DOMAIN-KEYWORD: 1
+# TOTAL: 74
+# ===========================================
 DOMAIN-KEYWORD,instagram
 DOMAIN-SUFFIX,achat-followers-instagram.com
 DOMAIN-SUFFIX,acheter-followers-instagram.com

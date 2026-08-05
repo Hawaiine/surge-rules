@@ -8,6 +8,5 @@
 | DOMAIN | 3 |
 | DOMAIN-SUFFIX | 30 |
 
-- **behavior**: classical
 - **策略组**: Netflix
 

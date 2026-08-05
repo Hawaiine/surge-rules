@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 15 |
 
-- **behavior**: classical
 - **策略组**: Reddit
 

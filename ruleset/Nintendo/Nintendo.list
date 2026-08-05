@@ -1,7 +1,10 @@
-# Nintendo Ruleset
-# DOMAIN-SUFFIX 127 IP-CIDR 1
-# TOTAL 128
+# ===========================================
+# Rule Name: Nintendo
 # Updated: 2026-07-23 17:36:02
+# DOMAIN-SUFFIX: 127
+# IP-CIDR: 1
+# TOTAL: 128
+# ===========================================
 DOMAIN-SUFFIX,100classicbooks.com
 DOMAIN-SUFFIX,ac-pocketcamp.com
 DOMAIN-SUFFIX,amiibo.com

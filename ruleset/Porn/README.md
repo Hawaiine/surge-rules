@@ -7,6 +7,5 @@
 | DOMAIN | 3 |
 | DOMAIN-SUFFIX | 6511 |
 
-- **behavior**: classical
 - **策略组**: 🔞 Porn
 

@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 4 |
 
-- **behavior**: classical
 - **策略组**: Messenger
 

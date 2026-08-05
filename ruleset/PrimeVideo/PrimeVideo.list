@@ -1,7 +1,11 @@
-# Prime Video Ruleset
-# DOMAIN 9 DOMAIN-SUFFIX 6 DOMAIN-KEYWORD 1
-# TOTAL 16
+# ===========================================
+# Rule Name: Prime Video
 # Updated: 2026-07-23 17:36:04
+# DOMAIN: 9
+# DOMAIN-SUFFIX: 6
+# DOMAIN-KEYWORD: 1
+# TOTAL: 16
+# ===========================================
 DOMAIN-KEYWORD,avoddashs
 DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net

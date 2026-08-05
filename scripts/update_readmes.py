@@ -58,7 +58,6 @@ def make_readme(brand: str, display: str, counts: dict[str, int], total: int) ->
         '## 📊 统计',
         render_table(counts),
         '',
-        f'- **behavior**: classical',
         f'- **策略组**: {display}',
         '',
     ]

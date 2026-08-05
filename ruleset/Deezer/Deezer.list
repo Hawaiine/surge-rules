@@ -1,6 +1,8 @@
-# Deezer Ruleset
-# DOMAIN-SUFFIX 2
-# TOTAL 2
+# ===========================================
+# Rule Name: Deezer
 # Updated: 2026-07-23 17:36:01
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+# ===========================================
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net

@@ -7,6 +7,5 @@
 | DOMAIN | 30 |
 | DOMAIN-SUFFIX | 36 |
 
-- **behavior**: classical
 - **策略组**: GitHub
 

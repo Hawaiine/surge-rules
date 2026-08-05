@@ -1,7 +1,10 @@
-# Podcast Ruleset
-# DOMAIN 3 DOMAIN-SUFFIX 2
-# TOTAL 5
+# ===========================================
+# Rule Name: Podcast
 # Updated: 2026-07-22 11:40:00
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 2
+# TOTAL: 5
+# ===========================================
 DOMAIN,lastfm.freetls.fastly.net
 DOMAIN,podcasts.apple.com
 DOMAIN,ws.audioscrobbler.com

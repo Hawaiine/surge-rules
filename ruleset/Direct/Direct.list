@@ -1,7 +1,9 @@
-# Direct Ruleset
-# DOMAIN-SUFFIX 112127
-# TOTAL 112127
+# ===========================================
+# Rule Name: Direct
 # Updated: 2026-07-21 21:17:52
+# DOMAIN-SUFFIX: 112127
+# TOTAL: 112127
+# ===========================================
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link

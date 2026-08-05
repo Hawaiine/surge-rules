@@ -1,7 +1,9 @@
-# Game Japan Ruleset
-# DOMAIN-SUFFIX 5
-# TOTAL 5
+# ===========================================
+# Rule Name: Game Japan
 # Updated: 2026-07-22 11:35:00
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
+# ===========================================
 DOMAIN-SUFFIX,colorfulpalette.org
 DOMAIN-SUFFIX,cygames.jp
 DOMAIN-SUFFIX,jujutsuphanpara.jp

@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 31 |
 
-- **behavior**: classical
 - **策略组**: Rakuten TV
 

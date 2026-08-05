@@ -6,6 +6,5 @@
 | DOMAIN | 11 |
 | DOMAIN-SUFFIX | 30 |
 
-- **behavior**: classical
 - **策略组**: Google AI
 

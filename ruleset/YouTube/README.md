@@ -9,6 +9,5 @@
 | IP-CIDR | 2 |
 | IP-CIDR6 | 1 |
 
-- **behavior**: classical
 - **策略组**: YouTube
 

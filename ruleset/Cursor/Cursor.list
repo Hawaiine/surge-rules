@@ -1,7 +1,9 @@
-# Cursor Ruleset
-# DOMAIN-SUFFIX 4
-# TOTAL 4
+# ===========================================
+# Rule Name: Cursor
 # Updated: 2026-07-23 17:36:01
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+# ===========================================
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh

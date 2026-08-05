@@ -1,7 +1,11 @@
-# Microsoft Ruleset
-# DOMAIN 32 DOMAIN-SUFFIX 674 DOMAIN-KEYWORD 1
-# TOTAL 707
+# ===========================================
+# Rule Name: Microsoft
 # Updated: 2026-07-24 11:05:18
+# DOMAIN: 32
+# DOMAIN-SUFFIX: 674
+# DOMAIN-KEYWORD: 1
+# TOTAL: 707
+# ===========================================
 DOMAIN-KEYWORD,microsoft
 DOMAIN,az764295.vo.msecnd.net
 DOMAIN,azure.microsoft.com

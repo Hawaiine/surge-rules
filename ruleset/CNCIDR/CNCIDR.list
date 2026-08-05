@@ -1,7 +1,10 @@
-# CNCIDR Ruleset
-# IP-CIDR 4206 IP-CIDR6 1611
-# TOTAL 5817
+# ===========================================
+# Rule Name: CNCIDR
 # Updated: 2026-07-21 21:17:52
+# IP-CIDR: 4206
+# IP-CIDR6: 1611
+# TOTAL: 5817
+# ===========================================
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve
 IP-CIDR,1.119.0.0/17,no-resolve

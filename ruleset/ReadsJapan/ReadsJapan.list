@@ -1,5 +1,7 @@
-# Reads Japan Ruleset
-# DOMAIN 1
-# TOTAL 1
+# ===========================================
+# Rule Name: Reads Japan
 # Updated: 2026-07-22 11:35:00
+# DOMAIN: 1
+# TOTAL: 1
+# ===========================================
 DOMAIN,data-cloudauthoring.magazine.rakuten.co.jp

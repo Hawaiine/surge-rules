@@ -1,7 +1,14 @@
-# OpenAI Ruleset
-# DOMAIN 10 DOMAIN-SUFFIX 30 DOMAIN-KEYWORD 1 DOMAIN-REGEX 1 IP-CIDR 2 IP-ASN 1
-# TOTAL 45
+# ===========================================
+# Rule Name: OpenAI
 # Updated: 2026-07-23 17:36:02
+# DOMAIN: 10
+# DOMAIN-SUFFIX: 30
+# DOMAIN-KEYWORD: 1
+# DOMAIN-REGEX: 1
+# IP-CIDR: 2
+# IP-ASN: 1
+# TOTAL: 45
+# ===========================================
 DOMAIN-KEYWORD,openai
 DOMAIN-REGEX,^chatgpt-async-webps-prod-\s+-\d+\.webpubsub\.azure\.com$
 DOMAIN,browser-intake-datadoghq.com

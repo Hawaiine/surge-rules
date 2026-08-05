@@ -6,6 +6,5 @@
 | DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 246 |
 
-- **behavior**: classical
 - **策略组**: PayPal
 

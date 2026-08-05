@@ -1,7 +1,13 @@
-# YouTube Ruleset
-# DOMAIN 1 DOMAIN-SUFFIX 178 DOMAIN-KEYWORD 1 IP-CIDR 2 IP-CIDR6 1
-# TOTAL 183
+# ===========================================
+# Rule Name: YouTube
 # Updated: 2026-07-23 17:36:04
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 178
+# DOMAIN-KEYWORD: 1
+# IP-CIDR: 2
+# IP-CIDR6: 1
+# TOTAL: 183
+# ===========================================
 DOMAIN-KEYWORD,youtube
 DOMAIN,yt3.googleusercontent.com
 DOMAIN-SUFFIX,ggpht.cn

@@ -7,6 +7,5 @@
 | DOMAIN | 9 |
 | DOMAIN-SUFFIX | 6 |
 
-- **behavior**: classical
 - **策略组**: Prime Video
 

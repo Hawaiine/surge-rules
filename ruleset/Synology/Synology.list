@@ -1,7 +1,11 @@
-# Synology Ruleset
-# DOMAIN 1 DOMAIN-SUFFIX 17 DOMAIN-KEYWORD 1
-# TOTAL 19
+# ===========================================
+# Rule Name: Synology
 # Updated: 2026-07-23 17:36:04
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 17
+# DOMAIN-KEYWORD: 1
+# TOTAL: 19
+# ===========================================
 DOMAIN-KEYWORD,synology
 DOMAIN,d2f0395ykn6hxb.cloudfront.net
 DOMAIN-SUFFIX,diskstation.me

@@ -6,6 +6,5 @@
 | DOMAIN-KEYWORD | 3 |
 | DOMAIN-SUFFIX | 13 |
 
-- **behavior**: classical
 - **策略组**: OneDrive
 

@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN | 41 |
 
-- **behavior**: classical
 - **策略组**: Z-Library
 

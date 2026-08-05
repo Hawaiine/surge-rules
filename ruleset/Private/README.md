@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 130 |
 
-- **behavior**: classical
 - **策略组**: Private
 

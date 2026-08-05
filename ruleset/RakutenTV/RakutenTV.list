@@ -1,7 +1,9 @@
-# Rakuten TV Ruleset
-# DOMAIN-SUFFIX 31
-# TOTAL 31
+# ===========================================
+# Rule Name: Rakuten TV
 # Updated: 2026-07-23 17:36:04
+# DOMAIN-SUFFIX: 31
+# TOTAL: 31
+# ===========================================
 DOMAIN-SUFFIX,bfads.net
 DOMAIN-SUFFIX,buyservices.com
 DOMAIN-SUFFIX,ebates.ca

@@ -1,7 +1,10 @@
-# Discord Ruleset
-# DOMAIN 2 DOMAIN-SUFFIX 29
-# TOTAL 31
+# ===========================================
+# Rule Name: Discord
 # Updated: 2026-07-23 17:36:01
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 29
+# TOTAL: 31
+# ===========================================
 DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
 DOMAIN,hammerandchisel.ssl.zendesk.com
 DOMAIN-SUFFIX,airhorn.solutions

@@ -6,6 +6,5 @@
 | DOMAIN-SUFFIX | 31 |
 | IP-CIDR | 2 |
 
-- **behavior**: classical
 - **策略组**: Qobuz
 

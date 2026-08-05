@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 47 |
 
-- **behavior**: classical
 - **策略组**: HBO
 

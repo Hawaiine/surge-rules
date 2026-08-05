@@ -1,7 +1,11 @@
-# Amazon Ruleset
-# DOMAIN 5 DOMAIN-SUFFIX 157 IP-CIDR 15
-# TOTAL 177
+# ===========================================
+# Rule Name: Amazon
 # Updated: 2026-07-24 11:05:18
+# DOMAIN: 5
+# DOMAIN-SUFFIX: 157
+# IP-CIDR: 15
+# TOTAL: 177
+# ===========================================
 DOMAIN,images-eu.ssl-images-amazon.com
 DOMAIN,images-fe.ssl-images-amazon.com
 DOMAIN,images-na.ssl-images-amazon.com

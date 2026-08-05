@@ -1,6 +1,8 @@
-# Manus Ruleset
-# DOMAIN-SUFFIX 2
-# TOTAL 2
+# ===========================================
+# Rule Name: Manus
 # Updated: 2026-07-23 17:36:02
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+# ===========================================
 DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manuscdn.com

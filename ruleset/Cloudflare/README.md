@@ -7,6 +7,5 @@
 | IP-CIDR | 15 |
 | IP-CIDR6 | 7 |
 
-- **behavior**: classical
 - **策略组**: Cloudflare
 

@@ -1,5 +1,7 @@
-# Threads Ruleset
-# DOMAIN-SUFFIX 1
-# TOTAL 1
+# ===========================================
+# Rule Name: Threads
 # Updated: 2026-07-23 17:36:04
+# DOMAIN-SUFFIX: 1
+# TOTAL: 1
+# ===========================================
 DOMAIN-SUFFIX,threads.net

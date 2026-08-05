@@ -7,6 +7,5 @@
 | DOMAIN | 8 |
 | DOMAIN-SUFFIX | 44 |
 
-- **behavior**: classical
 - **策略组**: TikTok
 

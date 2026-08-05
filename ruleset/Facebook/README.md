@@ -9,6 +9,5 @@
 | IP-CIDR | 23 |
 | IP-ASN | 1 |
 
-- **behavior**: classical
 - **策略组**: Facebook
 

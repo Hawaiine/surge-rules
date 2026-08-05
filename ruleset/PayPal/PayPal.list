@@ -1,7 +1,10 @@
-# PayPal Ruleset
-# DOMAIN-SUFFIX 246 DOMAIN-KEYWORD 1
-# TOTAL 247
+# ===========================================
+# Rule Name: PayPal
 # Updated: 2026-07-23 17:36:02
+# DOMAIN-SUFFIX: 246
+# DOMAIN-KEYWORD: 1
+# TOTAL: 247
+# ===========================================
 DOMAIN-KEYWORD,paypal
 DOMAIN-SUFFIX,account-paypal.info
 DOMAIN-SUFFIX,account-paypal.net

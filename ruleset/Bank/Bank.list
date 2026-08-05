@@ -1,7 +1,9 @@
-# 🏦 Bank Ruleset
-# DOMAIN 113
-# TOTAL 113
+# ===========================================
+# Rule Name: 🏦 Bank
 # Updated: 2026-07-21 00:00:00
+# DOMAIN: 113
+# TOTAL: 113
+# ===========================================
 DOMAIN,abchina.com
 DOMAIN,bank-of-china.com
 DOMAIN,bankcomm.cn

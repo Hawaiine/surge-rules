@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 26893 |
 
-- **behavior**: classical
 - **策略组**: Proxy
 

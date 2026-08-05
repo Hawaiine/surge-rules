@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN | 113 |
 
-- **behavior**: classical
 - **策略组**: 🏦 Bank
 

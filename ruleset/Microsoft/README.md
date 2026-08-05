@@ -7,6 +7,5 @@
 | DOMAIN | 32 |
 | DOMAIN-SUFFIX | 674 |
 
-- **behavior**: classical
 - **策略组**: Microsoft
 

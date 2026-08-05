@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN | 1 |
 
-- **behavior**: classical
 - **策略组**: Lemino
 

@@ -1,7 +1,12 @@
-# Spotify Ruleset
-# DOMAIN 8 DOMAIN-SUFFIX 23 DOMAIN-KEYWORD 1 IP-CIDR 2
-# TOTAL 34
+# ===========================================
+# Rule Name: Spotify
 # Updated: 2026-07-23 17:36:04
+# DOMAIN: 8
+# DOMAIN-SUFFIX: 23
+# DOMAIN-KEYWORD: 1
+# IP-CIDR: 2
+# TOTAL: 34
+# ===========================================
 DOMAIN-KEYWORD,spotify
 DOMAIN,audio-ak-spotify-com.akamaized.net
 DOMAIN,audio4-ak-spotify-com.akamaized.net

@@ -1,5 +1,7 @@
-# Video Market Ruleset
-# DOMAIN-SUFFIX 1
-# TOTAL 1
+# ===========================================
+# Rule Name: Video Market
 # Updated: 2026-07-22 11:35:00
+# DOMAIN-SUFFIX: 1
+# TOTAL: 1
+# ===========================================
 DOMAIN-SUFFIX,videomarket.jp

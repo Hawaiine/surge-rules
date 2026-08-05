@@ -1,7 +1,10 @@
-# Bahamut Ruleset
-# DOMAIN 1 DOMAIN-SUFFIX 6
-# TOTAL 7
+# ===========================================
+# Rule Name: Bahamut
 # Updated: 2026-07-23 17:36:01
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 6
+# TOTAL: 7
+# ===========================================
 DOMAIN,bahamut.akamaized.net
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,digicert.com

@@ -1,6 +1,8 @@
-# myTV Super Ruleset
-# DOMAIN-SUFFIX 2
-# TOTAL 2
+# ===========================================
+# Rule Name: myTV Super
 # Updated: 2026-07-21 22:39:08
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+# ===========================================
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com

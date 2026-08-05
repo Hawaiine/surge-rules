@@ -1,7 +1,9 @@
-# Siri AI Ruleset
-# DOMAIN-SUFFIX 5
-# TOTAL 5
+# ===========================================
+# Rule Name: Siri AI
 # Updated: 2026-07-21 00:00:00
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
+# ===========================================
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com

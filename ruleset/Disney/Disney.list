@@ -1,7 +1,9 @@
-# Disney Ruleset
-# DOMAIN-SUFFIX 167
-# TOTAL 167
+# ===========================================
+# Rule Name: Disney
 # Updated: 2026-07-24 11:05:18
+# DOMAIN-SUFFIX: 167
+# TOTAL: 167
+# ===========================================
 DOMAIN-SUFFIX,20thcenturystudios.com.au
 DOMAIN-SUFFIX,20thcenturystudios.com.br
 DOMAIN-SUFFIX,20thcenturystudios.jp

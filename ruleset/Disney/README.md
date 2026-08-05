@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 167 |
 
-- **behavior**: classical
 - **策略组**: Disney
 

@@ -1,7 +1,9 @@
-# Reject Ruleset
-# DOMAIN-SUFFIX 167745
-# TOTAL 167745
+# ===========================================
+# Rule Name: Reject
 # Updated: 2026-07-21 21:17:51
+# DOMAIN-SUFFIX: 167745
+# TOTAL: 167745
+# ===========================================
 DOMAIN-SUFFIX,0.avmarket.rs
 DOMAIN-SUFFIX,0.myikas.com
 DOMAIN-SUFFIX,0.net.easyjet.com

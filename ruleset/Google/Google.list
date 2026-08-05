@@ -1,7 +1,12 @@
-# Google Ruleset
-# DOMAIN 107 DOMAIN-SUFFIX 711 DOMAIN-KEYWORD 5 IP-CIDR 2
-# TOTAL 825
+# ===========================================
+# Rule Name: Google
 # Updated: 2026-08-02 10:59:46
+# DOMAIN: 107
+# DOMAIN-SUFFIX: 711
+# DOMAIN-KEYWORD: 5
+# IP-CIDR: 2
+# TOTAL: 825
+# ===========================================
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail

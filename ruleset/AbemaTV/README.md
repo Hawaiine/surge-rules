@@ -6,6 +6,5 @@
 | DOMAIN | 1 |
 | DOMAIN-SUFFIX | 22 |
 
-- **behavior**: classical
 - **策略组**: AbemaTV
 

@@ -1,5 +1,7 @@
-# friDay video Ruleset
-# DOMAIN 1
-# TOTAL 1
+# ===========================================
+# Rule Name: friDay video
 # Updated: 2026-07-22 10:50:00
+# DOMAIN: 1
+# TOTAL: 1
+# ===========================================
 DOMAIN,video.friday.tw

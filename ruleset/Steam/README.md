@@ -7,6 +7,5 @@
 | DOMAIN | 16 |
 | DOMAIN-SUFFIX | 57 |
 
-- **behavior**: classical
 - **策略组**: Steam
 

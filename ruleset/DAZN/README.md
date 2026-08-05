@@ -6,6 +6,5 @@
 | DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 17 |
 
-- **behavior**: classical
 - **策略组**: DAZN
 

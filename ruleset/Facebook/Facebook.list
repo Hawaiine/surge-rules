@@ -1,7 +1,13 @@
-# Facebook Ruleset
-# DOMAIN 1 DOMAIN-SUFFIX 459 DOMAIN-KEYWORD 2 IP-CIDR 23 IP-ASN 1
-# TOTAL 486
+# ===========================================
+# Rule Name: Facebook
 # Updated: 2026-07-24 11:05:18
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 459
+# DOMAIN-KEYWORD: 2
+# IP-CIDR: 23
+# IP-ASN: 1
+# TOTAL: 486
+# ===========================================
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN,fbcdn-a.akamaihd.net

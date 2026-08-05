@@ -1,5 +1,7 @@
-# Lemino Ruleset
-# DOMAIN 1
-# TOTAL 1
+# ===========================================
+# Rule Name: Lemino
 # Updated: 2026-07-22 11:40:00
+# DOMAIN: 1
+# TOTAL: 1
+# ===========================================
 DOMAIN,if.lemino.docomo.ne.jp

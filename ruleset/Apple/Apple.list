@@ -1,7 +1,13 @@
-# Apple Ruleset
-# DOMAIN 11 DOMAIN-SUFFIX 1451 DOMAIN-KEYWORD 2 IP-CIDR 10 IP-CIDR6 3
-# TOTAL 1477
+# ===========================================
+# Rule Name: Apple
 # Updated: 2026-07-24 11:05:18
+# DOMAIN: 11
+# DOMAIN-SUFFIX: 1451
+# DOMAIN-KEYWORD: 2
+# IP-CIDR: 10
+# IP-CIDR6: 3
+# TOTAL: 1477
+# ===========================================
 DOMAIN-KEYWORD,smp-device
 DOMAIN-KEYWORD,testflight
 DOMAIN,apple-tv-plus-press.apple.com

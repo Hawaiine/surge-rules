@@ -1,7 +1,11 @@
-# Steam Ruleset
-# DOMAIN 16 DOMAIN-SUFFIX 57 DOMAIN-KEYWORD 3
-# TOTAL 76
+# ===========================================
+# Rule Name: Steam
 # Updated: 2026-07-23 17:36:04
+# DOMAIN: 16
+# DOMAIN-SUFFIX: 57
+# DOMAIN-KEYWORD: 3
+# TOTAL: 76
+# ===========================================
 DOMAIN-KEYWORD,steambroadcast
 DOMAIN-KEYWORD,steamstore
 DOMAIN-KEYWORD,steamuserimages

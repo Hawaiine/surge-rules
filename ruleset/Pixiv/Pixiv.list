@@ -1,7 +1,9 @@
-# Pixiv Ruleset
-# DOMAIN-SUFFIX 8
-# TOTAL 8
+# ===========================================
+# Rule Name: Pixiv
 # Updated: 2026-07-23 17:36:02
+# DOMAIN-SUFFIX: 8
+# TOTAL: 8
+# ===========================================
 DOMAIN-SUFFIX,booth.pm
 DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,pixiv.cat

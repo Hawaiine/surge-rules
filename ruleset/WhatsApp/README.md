@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 11 |
 
-- **behavior**: classical
 - **策略组**: WhatsApp
 

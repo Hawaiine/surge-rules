@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 167745 |
 
-- **behavior**: classical
 - **策略组**: Reject
 

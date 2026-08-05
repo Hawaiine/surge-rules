@@ -1,7 +1,11 @@
-# X Ruleset
-# DOMAIN-SUFFIX 30 DOMAIN-KEYWORD 1 IP-CIDR 6
-# TOTAL 37
+# ===========================================
+# Rule Name: X
 # Updated: 2026-07-29 06:51:50
+# DOMAIN-SUFFIX: 30
+# DOMAIN-KEYWORD: 1
+# IP-CIDR: 6
+# TOTAL: 37
+# ===========================================
 DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com

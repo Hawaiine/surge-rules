@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 1 |
 
-- **behavior**: classical
 - **策略组**: Video Market
 

@@ -7,6 +7,5 @@
 | DOMAIN-SUFFIX | 30 |
 | IP-CIDR | 6 |
 
-- **behavior**: classical
 - **策略组**: X
 

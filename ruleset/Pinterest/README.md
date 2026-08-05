@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN-SUFFIX | 52 |
 
-- **behavior**: classical
 - **策略组**: Pinterest
 

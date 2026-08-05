@@ -5,6 +5,5 @@
 |------|------|
 | DOMAIN | 10 |
 
-- **behavior**: classical
 - **策略组**: 💊 PT
 

@@ -1,7 +1,10 @@
-# Apple TV Ruleset
-# DOMAIN 6 DOMAIN-SUFFIX 1
-# TOTAL 7
+# ===========================================
+# Rule Name: Apple TV
 # Updated: 2026-07-23 18:41:48
+# DOMAIN: 6
+# DOMAIN-SUFFIX: 1
+# TOTAL: 7
+# ===========================================
 DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com

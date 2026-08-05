@@ -1,6 +1,8 @@
-# Now E Ruleset
-# DOMAIN-SUFFIX 2
-# TOTAL 2
+# ===========================================
+# Rule Name: Now E
 # Updated: 2026-07-23 17:36:02
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+# ===========================================
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowestatic.com

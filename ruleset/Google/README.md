@@ -8,6 +8,5 @@
 | DOMAIN-SUFFIX | 711 |
 | IP-CIDR | 2 |
 
-- **behavior**: classical
 - **策略组**: Google
 

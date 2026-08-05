@@ -1,7 +1,14 @@
-# Telegram Ruleset
-# DOMAIN 2 DOMAIN-SUFFIX 25 DOMAIN-KEYWORD 1 IP-CIDR 13 IP-CIDR6 5 IP-ASN 5
-# TOTAL 51
+# ===========================================
+# Rule Name: Telegram
 # Updated: 2026-07-23 18:41:51
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 25
+# DOMAIN-KEYWORD: 1
+# IP-CIDR: 13
+# IP-CIDR6: 5
+# IP-ASN: 5
+# TOTAL: 51
+# ===========================================
 DOMAIN-KEYWORD,nicegram
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app

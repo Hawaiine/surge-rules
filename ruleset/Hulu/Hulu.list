@@ -1,7 +1,10 @@
-# Hulu Ruleset
-# DOMAIN 1 DOMAIN-SUFFIX 57
-# TOTAL 58
+# ===========================================
+# Rule Name: Hulu
 # Updated: 2026-07-23 17:36:01
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 57
+# TOTAL: 58
+# ===========================================
 DOMAIN,live-mediashield-ava-hulustream-com.akamaized.net
 DOMAIN-SUFFIX,112263.com
 DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
