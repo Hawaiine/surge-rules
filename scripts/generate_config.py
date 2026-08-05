@@ -51,30 +51,32 @@ SYSTEM_GROUPS_ORDER = [
     '🐟 漏网之鱼',
 ]
 
-# 节点组占位（Surge 示例节点，用户需替换）
+# 节点组占位（地区策略组，通过正则从订阅中自动筛选节点）
 NODE_GROUPS = [
-    '🇭🇰 香港节点',
-    '🇯🇵 日本节点',
-    '🇺🇸 美国节点',
-    '🇸🇬 新加坡节点',
-    '🇹🇼 台湾节点',
-    '🇰🇷 韩国节点',
-    '🇬🇧 英国节点',
-    '🇩🇪 德国节点',
-    '🇫🇷 法国节点',
-    '🇨🇦 加拿大节点',
-    '🇦🇺 澳大利亚节点',
-    '🇮🇳 印度节点',
-    '🇹🇷 土耳其节点',
-    '🇦🇷 阿根廷节点',
-    '🇧🇷 巴西节点',
-    '🇷🇺 俄罗斯节点',
-    '🇲🇾 马来西亚节点',
-    '🇹🇭 泰国节点',
-    '🇻🇳 越南节点',
-    '🇵🇭 菲律宾节点',
-    '🇮🇩 印尼节点',
+    ('🇭🇰 香港节点', r'(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美|Game|游戏|打機|解锁)).)*$', 'Country/Hongkong-2.png'),
+    ('🇯🇵 日本节点', r'(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美|Game|游戏)).)*$', 'Country/Japan-1.png'),
+    ('🇺🇸 美国节点', r'(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新|Game|游戏|Test|专线|解锁|CN|BGP|free)).)*$', 'Country/US-1.png'),
+    ('🇸🇬 新加坡节点', r'(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(港|台|日|韩|美|Game|游戏)).)*$', 'Country/Singapore-2.png'),
+    ('🇹🇼 台湾节点', r'(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美|Game|游戏|Test)).)*$', 'Country/CN-Taiwan-2.png'),
+    ('🇰🇷 韩国节点', r'(?=.*(韩国|Korea|KR))^((?!(港|台|日|新|美|Game|游戏)).)*$', 'Country/Korea-1.png'),
+    ('🇬🇧 英国节点', r'(?=.*(英国|United.Kingdom|UK))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/UK-2.png'),
+    ('🇩🇪 德国节点', r'(?=.*(德国|Germany|DE))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Germany-1.png'),
+    ('🇫🇷 法国节点', r'(?=.*(法国|France|FR))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/France-1.png'),
+    ('🇨🇦 加拿大节点', r'(?=.*(加拿大|Canada|CA))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Canada-1.png'),
+    ('🇦🇺 澳大利亚节点', r'(?=.*(澳大利亚|Australia|AU))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Australia-1.png'),
+    ('🇮🇳 印度节点', r'(?=.*(印度|India|IN))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/India-1.png'),
+    ('🇹🇷 土耳其节点', r'(?=.*(土耳其|Turkey|TR))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Turkey-1.png'),
+    ('🇦🇷 阿根廷节点', r'(?=.*(阿根廷|Argentina|AR))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Argentina-1.png'),
+    ('🇧🇷 巴西节点', r'(?=.*(巴西|Brazil|BR))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Brazil-1.png'),
+    ('🇷🇺 俄罗斯节点', r'(?=.*(俄罗斯|Russia|RU))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Russia-1.png'),
+    ('🇲🇾 马来西亚节点', r'(?=.*(马来西亚|Malaysia|MY))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Malaysia-1.png'),
+    ('🇹🇭 泰国节点', r'(?=.*(泰国|Thailand|TH))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Thailand-1.png'),
+    ('🇻🇳 越南节点', r'(?=.*(越南|Vietnam|VN))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Vietnam-1.png'),
+    ('🇵🇭 菲律宾节点', r'(?=.*(菲律宾|Philippines|PH))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Philippines-1.png'),
+    ('🇮🇩 印尼节点', r'(?=.*(印尼|Indonesia|ID))^((?!(港|台|日|韩|新|美|Game|游戏)).)*$', 'Country/Indonesia-1.png'),
 ]
+
+ICON_BASE = 'https://raw.githubusercontent.com/Hawaiine/Oasisic-Icons/main/icons'
 
 # 全量品牌（用于生成 Surge 配置，避免遗漏）
 COMMON_BRANDS = [
@@ -272,114 +274,69 @@ def gen_general() -> str:
     now = datetime.now(timezone(timedelta(hours=8))).strftime('%Y-%m-%d %H:%M:%S')
     return f"""# ===========================================
 # Surge Configuration
-# Generated from mihomo-rules
+# Surge 官方网站 - https://nssurge.com/
+# Surge 官方手册 - https://manual.nssurge.com/
+# Surge 中文指引 - https://manual.nssurge.com/book/understanding-surge/cn/
+# Surge 官方社区 - https://community.nssurge.com/
 # Updated: {now} (UTC+8)
-#
-# 使用方式（二选一）：
-#   A. 远程订阅（推荐）：Surge → 配置文件 → 下载配置文件
-#      URL: https://raw.githubusercontent.com/Hawaiine/surge-rules/main/configs/Surge.conf
-#   B. 手动配置：Surge → 配置文件 → 编辑，粘贴本文件内容
-#
-# 使用前必做：
-#   1. 替换 [Proxy] 段中的示例节点（ProxyA/ProxyB）为实际代理节点
-#   2. 如需更精细的 DNS 策略，取消注释 [DNS] 段中的对应项
-#   3. 品牌规则在 [Rule] 段中按需启用/禁用
 # ===========================================
 
 [General]
-# ===========================================
-# loglevel — 日志级别
-#   notify: 仅显示通知（默认，推荐）
-#   verbose: 显示完整日志（调试用，信息量大）
-# ===========================================
+# 日志等级
 loglevel = notify
 
-# ===========================================
-# DNS 服务器配置
-# Surge 向所有列出的 DNS 服务器同时发起查询，取最快返回的结果。
-# 多 DNS 并发查询 → 自动选择最快响应 → 实现国内/外 DNS 分流
-#
-# 配置说明：
-#   system: 使用系统默认 DNS（通常是运营商分配的本地 DNS，解析国内域名快）
-#   https://doh.pub/dns-query: 腾讯 DNSPod DoH，国内 CDN 节点，解析国内域名延迟低
-#   https://dns.alidns.com/dns-query: 阿里云 DNS，国内 CDN 节点，隐私保护较好
-#
-# 国内 DNS 优先策略：doh.pub 和 alidns 在国内有 CDN 加速，
-# 解析国内域名（如 baidu.com、taobao.com）时延迟远低于 8.8.8.8 等国外 DNS。
-# 解析国外域名时，Surge 会同时 query 所有 DNS，国外的 DNS 响应速度
-# 可能更快（因为国外域名在国外 DNS 可能有缓存），所以自然实现分流效果。
-# ===========================================
-dns-server = system, https://doh.pub/dns-query, https://dns.alidns.com/dns-query
+# WiFi 助手（自动切换蜂窝网络）
+wifi-assist = true
 
-# ===========================================
-# 加密 DNS（可选，注释掉即不启用）
-# 如果希望所有 DNS 查询都走加密通道，取消注释下面这行。
-# 注意：仅在有海外节点时建议使用，国内加密 DNS 在国内访问可能反而更慢。
-# ===========================================
-# encrypted-dns-server = https://dns.alidns.com/dns-query
+# 允许局域网其它设备访问代理服务
+allow-wifi-access = true
+wifi-access-http-port = 6152
+wifi-access-socks5-port = 6153
 
-# ===========================================
-# 跳过代理的地址段
-# 以下地址段/域名不经过 Surge 代理，直接连接。
-# 包括：局域网、本地回环、本地域名
-# ===========================================
+# 允许接入热点中的其它设备访问代理服务
+allow-hotspot-access = true
+
+# 国内测速地址
+internet-test-url = http://www.apple.com/library/test/success.html
+
+# 国外测速地址
+proxy-test-url = http://cp.cloudflare.com/generate_204
+
+# 测速超时（秒）
+test-timeout = 2
+
+# 跳过代理（局域网/本地地址直连）
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 
-# ===========================================
-# iOS 模式（iOS 设备专用，macOS 用户可忽略）
-#   bypass-system: 系统应用不走代理
-#   bypass-tun: TUN 模式跳过局域网地址
-# ===========================================
-# iOS
-bypass-system = true
+# 跳过 TUN 模式（局域网地址）
 bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
 
-# ===========================================
-# macOS 模式（macOS 设备专用，iOS 用户可忽略）
-#   interface: 监听地址（0.0.0.0 = 所有接口）
-#   port: HTTP 代理端口
-#   socks-port: SOCKS5 代理端口
-# ===========================================
-# macOS
-interface = 0.0.0.0
-port = 6152
-socks-port = 6153
-
-# ===========================================
-# 真实 IP 地址（强制保留真实 IP 的域名）
-# 以下域名被用于 NAT 类型检测、游戏联机、流媒体地域验证等场景。
-# 如果这些域名被代理或 DNS 劫持，可能导致：
-#   - 游戏 NAT 类型变为 Strict（严格）
-#   - 流媒体（如 Netflix）检测到代理而拒绝播放
-#   - 语音通话（如 Discord）连接失败
-# ===========================================
-always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, ntp.ubuntu.com
-
-# ===========================================
-# hijack-dns — DNS 劫持
-# 劫持发往指定地址的 DNS 查询，强制走 Surge 的 DNS 客户端。
-# 适用于：路由器、游戏机、智能电视等设备强制使用自定义 DNS 的场景。
-# 格式：ip:port，多个用逗号分隔
-# 示例：hijack-dns = 8.8.8.8:53, 8.8.4.4:53
-# 默认不启用，需要时取消注释。
-# ===========================================
-# hijack-dns = 8.8.8.8:53, 8.8.4.4:53
-
-# ===========================================
-# 代理设置
-#   external-controller-access: 远程访问控制（格式: 用户名@密码@地址:端口）
-#   proxy: 全局 HTTP 代理（可选）
-# ===========================================
-external-controller-access = surgerules@127.0.0.1:6170
-# proxy = http://127.0.0.1:6152
-
-# ===========================================
 # IPv6 支持
-#   off: 关闭 IPv6
-#   auto: 自动检测网络是否支持 IPv6（默认）
-#   always: 始终启用 IPv6
-# ===========================================
-# ipv6 = auto
+ipv6 = true
+
+# IPv6 VIF 工作模式
+ipv6-vif = auto
+
+# DNS 服务器
+dns-server = 119.29.29.29, 1.0.0.1, 8.8.4.4
+
+# 加密 DNS
+encrypted-dns-server = https://doh.pub/dns-query
+
+# 劫持 DNS（拦截发往指定地址的 DNS 查询）
+hijack-dns = 8.8.8.8:53, 8.8.4.4:53
+
+# 强制保留真实 IP 的域名（用于 NAT 检测、游戏联机）
+always-real-ip = *.srv.nintendo.net, *.stun.playstation.net
+
+# 自定义 GeoIP 数据库
+geoip-maxmind-url = https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+
+# 当遇到 reject 策略时返回错误页
+show-error-page-for-reject = true
+
+# 游戏优化（UDP 优先）
+udp-priority = true
 
 """
 
@@ -388,18 +345,14 @@ def gen_proxy_placeholder() -> str:
     return """[Proxy]
 # ===========================================
 # 代理节点配置
-#
-# 方式一（推荐）：使用外部配置文件
-#   将你的代理节点写入 configs/Proxy.dconf，格式参考该文件内的注释。
+# 方式一：使用外部配置文件（推荐）
+#   将代理节点写入 configs/Proxy.dconf，格式参考该文件内的注释
 #   取消注释下面这行即可加载：
-#
 #   #!include configs/Proxy.dconf
 #
 # 方式二：直接在此处添加节点
-#   按下方示例格式替换为你的实际代理节点。
 #   支持类型：http, https, socks5, socks5-tls, ss, vmess, trojan, snell, wireguard
-#
-# 参考：https://manual.nssurge.com/proxy/proxy.html
+#   参考：https://manual.nssurge.com/proxy/proxy.html
 # ===========================================
 #!include configs/Proxy.dconf
 
@@ -408,27 +361,53 @@ def gen_proxy_placeholder() -> str:
 
 def gen_proxy_groups_full(icons: Dict[str, str], brand_info: List[dict]) -> str:
     lines: List[str] = ['[Proxy Group]']
-    for ng in NODE_GROUPS:
-        lines.append(f'{ng} = url-test, ProxyA, ProxyB, Direct, interval=600, timeout=5, tolerance=50')
-    for sg in SYSTEM_GROUPS_ORDER:
-        lines.append(f'{sg} = select, ProxyA, ProxyB, Direct')
+    # 系统组
+    lines.append('🛑 全球拦截 = select, 🇨🇳国内直连, 🚫REJECT, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/Hawaiine/Oasisic-Icons/main/icons/General/Reject.png')
+    lines.append('🎯 全球直连 = select, 🇨🇳国内直连, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/Hawaiine/Oasisic-Icons/main/icons/General/Direct.png')
+    lines.append('🔧 手动切换 = select, 🇨🇳国内直连, 🇺🇸美国节点, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇹🇼台湾节点, 🇰🇷韩国节点, 🚀节点选择, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/Hawaiine/Oasisic-Icons/main/icons/General/Auto.png')
+    lines.append('')
+    # 订阅节点列表
+    lines.append('# 订阅节点列表（将下方 policy-path 替换为你的订阅地址）')
+    lines.append('🌱节点列表 = select, no-alert=0, hidden=1, include-all-proxies=0, update-interval=43200, policy-path=此处填入订阅地址, icon-url=https://raw.githubusercontent.com/Hawaiine/Oasisic-Icons/main/icons/General/Area.png')
+    lines.append('')
+    # 地区节点组（通过正则从订阅中自动筛选）
+    for ng, regex, icon_path in NODE_GROUPS:
+        lines.append(f'{ng} = select, no-alert=0, hidden=0, include-all-proxies=0, update-interval=0, policy-regex-filter={regex}, include-other-group=🌱节点列表, icon-url={ICON_BASE}/{icon_path}')
+    lines.append('')
+    # 全局代理
+    lines.append('🚀节点选择 = smart, no-alert=1, hidden=1, update-interval=0, interval=600, tolerance=50, include-other-group="🇺🇸美国节点, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇹🇼台湾节点, 🇰🇷韩国节点, 🇬🇧英国节点"')
+    lines.append('')
+    # 品牌策略组
     for i, bi in enumerate(brand_info):
         if i > 0:
             lines.append('')
-        lines.append(f'{bi["sg"]} = select, Direct, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇸 美国节点, 🇸🇬 新加坡节点')
-        if bi['sg'] in icons:
-            lines.append(f'    # icon: {icons[bi["sg"]]}')
+        icon_url = f', icon-url={icons[bi["sg"]]}' if bi['sg'] in icons else ''
+        lines.append(f'{bi["sg"]} = select, 🇨🇳国内直连, 🇺🇸美国节点, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇹🇼台湾节点, 🇰🇷韩国节点, 🇬🇧英国节点, 🚀节点选择, no-alert=0, hidden=0, include-all-proxies=0{icon_url}, include-other-group=🌱节点列表')
+    lines.append('')
+    # 兜底
+    lines.append('🐟 漏网之鱼 = select, 🇨🇳国内直连, 🇺🇸美国节点, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇹🇼台湾节点, 🇰🇷韩国节点, 🇬🇧英国节点, 🚀节点选择, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/Hawaiine/Oasisic-Icons/main/icons/General/Global-4.png, include-other-group=🌱节点列表')
     return '\n'.join(lines) + '\n\n'
 
 
 def gen_proxy_groups_min(icons: Dict[str, str], brand_info: List[dict]) -> str:
     lines: List[str] = ['[Proxy Group]']
-    for ng in NODE_GROUPS:
-        lines.append(f'{ng} = url-test, ProxyA, ProxyB, Direct, interval=600, timeout=5, tolerance=50')
-    for sg in SYSTEM_GROUPS_ORDER:
-        lines.append(f'{sg} = select, ProxyA, ProxyB, Direct')
+    # 系统组
+    lines.append('🛑 全球拦截 = select, 🇨🇳国内直连, 🚫REJECT, no-alert=0, hidden=0, include-all-proxies=0')
+    lines.append('🎯 全球直连 = select, 🇨🇳国内直连, no-alert=0, hidden=0, include-all-proxies=0')
+    lines.append('🔧 手动切换 = select, 🇨🇳国内直连, 🇺🇸美国节点, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇹🇼台湾节点, 🇰🇷韩国节点, 🚀节点选择, no-alert=0, hidden=0, include-all-proxies=0')
+    # 订阅节点列表
+    lines.append('🌱节点列表 = select, no-alert=0, hidden=1, include-all-proxies=0, update-interval=43200, policy-path=此处填入订阅地址')
+    # 地区节点组
+    for ng, regex, icon_path in NODE_GROUPS:
+        lines.append(f'{ng} = select, no-alert=0, hidden=0, include-all-proxies=0, update-interval=0, policy-regex-filter={regex}, include-other-group=🌱节点列表')
+    # 全局代理
+    lines.append('🚀节点选择 = smart, no-alert=1, hidden=1, update-interval=0, interval=600, tolerance=50, include-other-group="🇺🇸美国节点, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇹🇼台湾节点, 🇰🇷韩国节点, 🇬🇧英国节点"')
+    # 品牌策略组
     for bi in brand_info:
-        lines.append(f'{bi["sg"]} = select, Direct, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇸 美国节点, 🇸🇬 新加坡节点')
+        icon_url = f', icon-url={icons[bi["sg"]]}' if bi['sg'] in icons else ''
+        lines.append(f'{bi["sg"]} = select, 🇨🇳国内直连, 🇺🇸美国节点, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇹🇼台湾节点, 🇰🇷韩国节点, 🇬🇧英国节点, 🚀节点选择, no-alert=0, hidden=0, include-all-proxies=0{icon_url}, include-other-group=🌱节点列表')
+    # 兜底
+    lines.append('🐟 漏网之鱼 = select, 🇨🇳国内直连, 🇺🇸美国节点, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇹🇼台湾节点, 🇰🇷韩国节点, 🇬🇧英国节点, 🚀节点选择, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=🌱节点列表')
     return '\n'.join(lines) + '\n\n'
 
 

@@ -1,81 +1,30 @@
 # ===========================================
 # Proxy 配置
-# 在此文件中添加你的代理节点，然后在主配置的 [Proxy] 段中引用。
-# Surge 支持以下代理类型：
+# Surge 官方手册 - https://manual.nssurge.com/
 #
-#   http, https, socks5, socks5-tls (基础代理)
-#   shadowsocks / ss (Shadowsocks)
-#   vmess (VMess / V2Ray)
-#   trojan (Trojan)
-#   snell (Snell)
-#   wireguard (WireGuard)
+# 使用方式（三选一）：
+#   1. 订阅（推荐）：将下方 policy-path 替换为你的订阅地址
+#      自动拉取节点，按地区筛选分组
+#   2. 手动添加：在下方逐个添加节点
+#   3. 混合：订阅 + 手动添加互补
 #
-# 格式参考：
-#   ProxyName = type, server, port, [params...]
-#
+# 支持类型：http, https, socks5, socks5-tls, ss, vmess, trojan, snell, wireguard
 # 详细文档：https://manual.nssurge.com/proxy/proxy.html
 # ===========================================
 
 # ===========================================
-# 1. 基础代理（HTTP / HTTPS / SOCKS5）
+# 1. 基础代理
 # ===========================================
-# 格式：名称 = 类型, 服务器地址, 端口, 用户名, 密码
-# 用户名和密码可选（无认证的代理可省略）
+# 格式：名称 = 类型, 服务器, 端口, 用户名, 密码
 # ===========================================
-# 示例节点（取消注释后替换为实际节点，供策略组引用）
+🇨🇳国内直连 = direct
+🚫REJECT = reject
+
+# ===========================================
+# 2. 示例节点（取消注释后使用）
+# ===========================================
 # ProxyA = http, 1.2.3.4, 443
 # ProxyB = socks5, 5.6.7.8, 1080
-
-# ===========================================
-# 2. Shadowsocks
-# ===========================================
-# 格式：名称 = ss, 服务器, 端口, 加密方式, 密码
-# 加密方式：aes-128-gcm, aes-256-gcm, chacha20-ietf-poly1305 等
-# ===========================================
 # SS_JP = ss, jp.example.com, 443, aes-256-gcm, "your-password"
-# SS_HK = ss, hk.example.com, 10001, chacha20-ietf-poly1305, "your-password"
-
-# ===========================================
-# 3. VMess
-# ===========================================
-# 格式：名称 = vmess, 服务器, 端口, uuid, 加密方式, over-tls, host, path
-#   over-tls: true/false（是否启用 TLS）
-#   host: TLS 的 SNI（服务器名称指示）
-#   path: WebSocket 路径（如 /api）
-# ===========================================
-# VMess_JP = vmess, jp.example.com, 443, "uuid-here", aes-128-gcm, true, jp.example.com, /api
-# VMess_HK = vmess, hk.example.com, 80, "uuid-here", aes-128-gcm, false, hk.example.com, /api
-
-# ===========================================
-# 4. Trojan
-# ===========================================
-# 格式：名称 = trojan, 服务器, 端口, 密码
-# 可选参数：, over-tls=true, host=example.com, path=/
-# ===========================================
-# Trojan_JP = trojan, jp.example.com, 443, "your-password"
-# Trojan_US = trojan, us.example.com, 443, "your-password", over-tls=true, host=us.example.com, path=/
-
-# ===========================================
-# 5. Snell
-# ===========================================
-# 格式：名称 = snell, 服务器, 端口, psk, version, obfs-type, obfs-host
-#   psk: 预共享密钥
-#   version: 1/2/3/4（Snell 协议版本）
-#   obfs-type: http（可选，混淆类型）
-#   obfs-host: 混淆域名（可选）
-# ===========================================
-# Snell_JP = snell, jp.example.com, 10086, "your-psk", 4, obfs=http, obfs-host=bing.com
-
-# ===========================================
-# 6. WireGuard
-# ===========================================
-# 格式：名称 = wireguard, 私钥, 地址, 对端公钥, 端点, 允许IP
-# 注意：WireGuard 在 Surge 中需要指定多个参数
-# 参考：https://manual.nssurge.com/proxy/wireguard.html
-# ===========================================
-# WG_JP = wireguard, "private-key", 10.0.0.2/32, "peer-public-key", 1.2.3.4:51820, 0.0.0.0/0
-
-# ===========================================
-# 7. 直连（系统保留，不可修改或删除）
-# ===========================================
-Direct = direct
+# VMess_HK = vmess, hk.example.com, 443, "uuid", aes-128-gcm, true, hk.example.com, /api
+# Trojan_US = trojan, us.example.com, 443, "your-password"
